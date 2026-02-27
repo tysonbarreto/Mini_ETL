@@ -1,5 +1,3 @@
----
-
 # **Mini ETL Pipeline in Rust (CSV → Transform → SQLite)**
 
 This project implements a fully modular **Extract–Transform–Load (ETL)** pipeline in Rust. It reads user data from a CSV file, transforms and validates the records, and loads the cleaned data into a SQLite database.
