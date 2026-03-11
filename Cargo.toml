@@ -3,6 +3,14 @@ name = "axum_etl"
 version = "0.1.0"
 edition = "2024"
 
+[lints.rust]
+unused_imports="warn"
+unsafe_code="forbid"
+
+[[bin]]
+name="app"
+path="src/main.rs"
+
 [dependencies]
 anyhow = "1.0.102"
 csv = "1.4.0"
